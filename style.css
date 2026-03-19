@@ -1,0 +1,38 @@
+/* Basic page styling */
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f5f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container */
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+/* Inputs */
+input[type="number"], input[type="text"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Options */
+.options {
+    text-align: left;
+    margin: 10px 0;
+}
+
+/* Buttons */
+button {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
